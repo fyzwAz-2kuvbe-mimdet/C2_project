@@ -66,6 +66,12 @@ def render():
             f"  line-height:1.6 !important;"
             f"  font-size:13px !important;"
             f"  font-weight:400 !important;"
+            f"  display:block !important;"
+            f"}}"
+            f".element-container:has(#tm-topic-{i}) + .element-container button p{{"
+            f"  text-align:left !important;"
+            f"  width:100% !important;"
+            f"  margin:0 !important;"
             f"}}"
             f"</style>"
             f'<span id="tm-topic-{i}"></span>',

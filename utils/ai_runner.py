@@ -46,7 +46,7 @@ def prompt_panel(
     tab_auto, tab_manual = st.tabs(["Gemma 자동 전송 (로컬)", "직접 붙여넣기"])
 
     with tab_auto:
-        st.caption("로컬 Gemma 모델이 자동으로 분석합니다. (인터넷 불필요)")
+        st.caption("로컬 Gemma 모델이 자동으로 분석합니다.")
         if st.button(btn_label, key=f"_auto_{result_key}", type="primary", use_container_width=True):
             with st.spinner(spinner_text):
                 try:

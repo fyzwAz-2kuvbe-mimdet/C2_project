@@ -73,6 +73,13 @@ button[kind="primary"]:hover {
   background-color: #0f766e !important; border-color: #0f766e !important;
 }
 #MainMenu, footer { visibility: hidden; }
+/* 오프라인 환경에서 Material Symbols 폰트 미로드 시 _arrow_right 텍스트 숨김 */
+.material-symbols-rounded {
+  font-size: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+  display: inline-block !important;
+}
 section[data-testid="stSidebar"] { background: #f0faf8 !important; }
 section[data-testid="stSidebar"] div[data-testid="stColumn"] div[data-testid="stButton"] button {
   border-radius: 50% !important;

@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="AI 학습 멘토 (오프라인)",
-    page_icon="",
+    page_icon=None,
     layout="wide",
     initial_sidebar_state="expanded",
 )
